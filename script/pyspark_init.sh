@@ -1,5 +1,5 @@
 #!bin/bash
-ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime
+sudo ln -fs /usr/share/zoneinfo/Europe/Paris /etc/localtime
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update
 sudo apt-get install -y pandoc
